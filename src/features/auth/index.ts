@@ -1,0 +1,1 @@
+export { SignInPage as SignIn, SignUpPage as SignUp } from './Auth';

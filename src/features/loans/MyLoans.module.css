@@ -1,0 +1,126 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.loansList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.loanCard {
+  padding: 1.25rem;
+}
+
+.loanCard.returned {
+  opacity: 0.7;
+}
+
+.loanContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.loanInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.loanTitle {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.loanTitle:hover {
+  text-decoration: underline;
+}
+
+.loanAuthor {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.loanMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.loanDate {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.loanStatus {
+  flex-shrink: 0;
+}
+
+.emptyCard {
+  padding: 3rem;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.emptyIcon {
+  color: var(--color-text-muted);
+}
+
+.empty h2 {
+  font-size: 1.5rem;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.empty p {
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .loanContent {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .loanStatus {
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,56 @@
+.cover,
+.placeholder {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover {
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.cover.loaded {
+  opacity: 1;
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+}
+
+.s .placeholder {
+  min-width: 45px;
+  min-height: 64px;
+}
+
+.m .placeholder {
+  min-width: 90px;
+  min-height: 128px;
+}
+
+.l .placeholder {
+  min-width: 135px;
+  min-height: 192px;
+}
+
+.initials {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.s .initials {
+  font-size: 1rem;
+}
+
+.m .initials {
+  font-size: 1.5rem;
+}
+
+.l .initials {
+  font-size: 2rem;
+}

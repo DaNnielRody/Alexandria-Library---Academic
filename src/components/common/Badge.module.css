@@ -1,0 +1,42 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sm {
+  padding: 0.125rem 0.5rem;
+  font-size: 0.6875rem;
+}
+
+.md {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.default {
+  background-color: var(--color-border-light);
+  color: var(--color-text-muted);
+}
+
+.success {
+  background-color: rgba(45, 106, 79, 0.15);
+  color: var(--color-success);
+}
+
+.warning {
+  background-color: rgba(231, 111, 81, 0.15);
+  color: var(--color-warning);
+}
+
+.error {
+  background-color: rgba(193, 18, 31, 0.15);
+  color: var(--color-error);
+}
+
+.info {
+  background-color: rgba(27, 67, 50, 0.1);
+  color: var(--color-primary);
+}
