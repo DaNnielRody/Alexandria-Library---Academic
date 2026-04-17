@@ -16,7 +16,7 @@ Este repositório implementa uma biblioteca universitária digital com foco em:
 
 ## Link Ao Vivo
 
-- Produção: não configurado ainda
+- Produção: [Alexandria Library](https://alexandria-library-academic.vercel.app/)
 
 ## Stack Tecnológica
 
