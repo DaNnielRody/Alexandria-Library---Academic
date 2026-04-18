@@ -25,15 +25,20 @@
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 2.5rem;
+  align-items: start;
 }
 
 .coverSection {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  align-self: start;
 }
 
 .cover {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
 }
